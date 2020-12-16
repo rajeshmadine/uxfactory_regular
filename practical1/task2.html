@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notification</title>
+        <style>
+            body{
+                 margin-top:300px; 
+                text-align: center;
+            }
+            .notification{
+                background-color: red;
+                color: black;
+                text-decoration: none;
+                padding: 15px 30px;
+                position: relative;
+               
+                border-radius: 5px;
+                margin-top: 20px;
+
+            }
+            .notification:hover{
+                background-color:blue ;
+                color: white;
+            }
+            .notification .badge{
+                position: absolute;
+                top: -10px;
+                right:-10px;
+                background-color: lightgreen;
+                padding: 10px;
+                color:white;
+                border-radius: 20px;
+
+
+            }
+            .notification .badge:hover{
+                background-color: red;
+            }
+
+        </style>
+    </head>
+    <body>
+        <a href="#" class="notification">
+            <span>Inbox</span>
+            <span class="badge">10</span>
+        </a>
+    </body>
+</html>
