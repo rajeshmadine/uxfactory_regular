@@ -1,0 +1,26 @@
+h1{
+    font-size: small;
+    color: brown;
+}
+a{
+    color: brown;
+}
+img{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+body{
+    background-color: orange;
+}
+a{
+   text-align: center;
+}
+.image{
+  
+   text-align: center;
+}
+.anchor{
+    text-align: center;
+    margin: 50px;
+}
